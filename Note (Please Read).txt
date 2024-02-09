@@ -1,0 +1,15 @@
+------------------------------
+: Description of the Project :
+------------------------------
+I developed this project based on an Arduino Nano microcontroller development board. Initially, I wanted to use only one temperature and humidity sensor. But the most common sensor available on the market for DIY projects is the DHT series, and the DHT-22 is the best among them. But this sensor is not precise. So, I searched for alternatives and found the GY-BME280 sensor, which does the same thing. As precision is the main focus for this project, I connected both sensors, DHT 22 and GY-BME280, to the Arduino board. I programmed the Arduino microcontroller in such a way that when these two sensors feed data to the microcontroller, it will take the average of both temperature and humidity. In that way, we don't get any abnormal values. Additionally, I am using a 16*2 parallel LCD display and I connected this LCD display module to Arduino Nano board with the help of I2C serial interface adapter module for displaying sensor readings.
+
+-----------------
+: List of Parts :
+-----------------
+https://robu.in/product/iici2c-serial-interface-adapter-module/
+https://robu.in/product/arduino-nano-v3-0-ch340-chip-mini-usb-cable/
+https://robu.in/product/gy-bme280-5v-temperature-and-humidity-sensor/
+https://robu.in/product/dht22-am2302-digital-temperature-humidity-sensor/
+https://robu.in/product/basic-16x2-character-lcd-white-on-blue-on-blue-5v/
+
+
